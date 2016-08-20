@@ -36,7 +36,7 @@ You can add around 1000 to 2000 mails id's in one set in this array . Emails mus
 Adding an Attachment 
 ```php
       $mail->
-      addAttachment("/path/to/attachement/test.jpg");
+      addAttachment("/path/to/attachment/test.jpg");
 ```
 
 
