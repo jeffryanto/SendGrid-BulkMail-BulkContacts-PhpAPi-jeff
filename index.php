@@ -13,12 +13,12 @@ if (isset($_POST['dsubmit'])) {
     $subject = $_POST["dsubject"];
     $message = $_POST["dmessage"];
 
-    //$templateId = 'a47e1db7-a1fa-4e31-ab6a-90622690c88a';
+    //$templateId = 'YOUR TEMPLATE ID';
     
-    $templateId = '7d63a608-d395-415c-b7c5-15005cb1d2c8';
+    $templateId = 'YOUR TEMPLATE ID';
 
-    $sg_username = "nptelonlinecourses";
-    $sg_password = "s3PRwrl@7R#i";
+    $sg_username = "SEND GRID USERNAME";
+    $sg_password = "PASSWORD";
 
     // API KEY
 
@@ -32,16 +32,14 @@ if (isset($_POST['dsubmit'])) {
 
     $emails = array(
        
-       //'anto.jeffry@gmail.com'
-        //'bharathi@nptel.iitm.ac.in','kamala@nptel.iitm.ac.in',
-     'jeffry@nptel.iitm.ac.in','bharathi@nptel.iitm.ac.in','kamala@nptel.iitm.ac.in'
+        //'test@test.com','test12@test.com','testing@test.com','test23@test.com'
     );
     
 
     // Cc Mail id's 
 
     // $mail
-    //   ->addCc("nptelpsrr@psrr.edu.in");
+    //   ->addCc("Cc mail@test.com");
 
    // Send Grid HTML Template 
 
