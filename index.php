@@ -156,7 +156,7 @@ if (isset($_POST['dsubmit'])) {
 <div class="row">
 <div class="col-md-12">
 <div id="main">
-                <h1><b>NPTEL BULK MAIL</b></h1>
+                <h1><b>BULK MAIL</b></h1>
 			 </div>
 					</div>
                          <div class="col-md-12">
