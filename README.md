@@ -1,4 +1,4 @@
-SendGrid Sample App - PHP
+SendGrid Bulk Contacts List - PHP
 ======================
 
 This git repository helps you to send emails quickly and easily through SendGrid using PHP.
@@ -38,8 +38,11 @@ Adding an Attachment
       $mail->
       addAttachment("/path/to/attachment/test.jpg");
 ```
-
-
+Adding Cc
+```php
+      $mail
+      ->addCc("nptelpsrr@psrr.edu.in");
+```
 Upload your application to your server
 
 
