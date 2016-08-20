@@ -24,6 +24,15 @@ Update the *&lt;from_address&gt;* with your email address
     $from_email = "<from_address>";
 ```
 
+Update the Bulk Contacts with your email address
+```php
+       $emails = array(
+       'test@test.com','test12@test.com','testing@test.com','test23@test.com'
+    );
+    
+```
+You can add around 1000 to 2000 mails id's in one set in this array . Emails must be added in ( single quotes comma seperated values )
+
 Upload your application to your server
 
 
